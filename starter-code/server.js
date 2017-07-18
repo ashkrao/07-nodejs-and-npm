@@ -1,11 +1,16 @@
 'use strict';
 
 // TODO: Initialize your project using NPM to create and populate a package.json file
+//Done!
+//Est time :5 mins || Done in: 5 mins
 
 // TODO: Require the Express package that you installed via NPM, and instantiate the app
 // Remember to install express, and be sure that it's been added to your package.json as a dependency
 // There is also a package here called body-parser, which is required in for use in a new route.
 // Be sure to install that and save it as a dependency after you create your package.json.
+//Done!
+//Est time :10 mins || Done in: 5 mins
+
 const bodyParser = require('body-parser').urlencoded({extended: true});
 const PORT = process.env.PORT || 3000;
 
